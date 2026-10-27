@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Лр 3</title>
+<style>
+    body { font-family: Arial, sans-serif; margin: 20px; line-height: 1.5; }
+    .task { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ddd; }
+    button { padding: 6px 12px; margin: 5px 5px 5px 0; cursor: pointer; }
+    h4 { margin: 20px 0 5px; color: #335; }
+    .note { font-size: 14px; color: #555; }
+</style>
+</head>
+<body>
+
+<h2>Гаврилюк Мар'ян №1</h2>
+
+<h4>Рівень 4-6 балів</h4>
+
+<div class="task">
+    <h3>1. Привітання (getFullName, showGreeting)</h3>
+    <button onclick="task1()">Виконати завдання</button>
+    <div id="out1"></div>
+</div>
+
+<div class="task">
+    <h3>2. Оцінка студента (getStudentInfo, checkGrade, showResult)</h3>
+    <button onclick="task2()">Виконати завдання</button>
+    <div id="out2"></div>
+</div>
+
+<div class="task">
+    <h3>3. Чайові (calculateTip, showResult)</h3>
+    <button onclick="task3()">Виконати завдання</button>
+    <div id="out3"></div>
+</div>
+
+<h4>Рівень 7-9 балів</h4>
+
+<div class="task">
+    <h3>4. Таймер привітання (колбек + стрілкова функція)</h3>
+    <button onclick="task4()">Виконати завдання</button>
+    <div id="out4"></div>
+</div>
+
+<div class="task">
+    <h3>5. Калькулятор (calculate)</h3>
+    <button onclick="task5()">Виконати завдання</button>
+    <div id="out5"></div>
+</div>
+
+<div class="task">
+    <h3>6. Лічильник кліків (замикання)</h3>
+    <button onclick="task6()">Виконати завдання</button>
+    <div id="out6"></div>
+    <div class="note">Значення також виводяться в консоль (F12).</div>
+</div>
+
+<h4>Рівень 10-12 балів</h4>
+
+<div class="task">
+    <h3>7. Генератор випадкових чисел</h3>
+    <button onclick="task7()">Задати межі</button>
+    <button id="next">Next number</button>
+    <div id="out"></div>
+</div>
+
+<div class="task">
+    <h3>8. Генератор паролів (next(value))</h3>
+    <button onclick="task8()">Виконати завдання</button>
+    <div id="out8"></div>
+</div>
+
+<div class="task">
+    <h3>9. Генератор діалогів (chatBot)</h3>
+    <button onclick="task9()">Виконати завдання</button>
+    <div id="out9"></div>
+</div>
+
+<div class="task">
+    <h3>10. Втрата контексту методом</h3>
+    <button onclick="task10()">Задати ім'я та підключити кнопки</button><br>
+    <button id="helloBad">Say (без bind)</button>
+    <button id="hello">Say</button>
+    <div id="out10"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
